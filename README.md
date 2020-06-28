@@ -69,10 +69,10 @@ https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer06.png)
 
 
-   - 1.User will Login or Register new account to the system
-   - 2.Once validated by ADB2C
-      - 3.If user passed authentication the system will redirect traffic to the application.
-      - 3.If user fail authentication the system will redirect traffic to denied ui page.
+   -	User will Login or Register new account to the system
+   -	Once validated by ADB2C
+      -	If user passed authentication the system will redirect traffic to the application.
+      -	If user fail authentication the system will redirect traffic to denied ui page.
 
 
  
