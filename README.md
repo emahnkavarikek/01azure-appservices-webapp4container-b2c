@@ -36,8 +36,8 @@
 
 
 ------------------------------------------------------------------------------
-# 3. Create a Azure B2C Tenant,
-	 https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
+# 3. Create a Azure B2C Tenant, Create a WEb app and register to AD B2C
+     https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
 
      Create a ASP.net Core web app with AD B2C and Docker configurations.
 
