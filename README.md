@@ -39,7 +39,8 @@
 # 3. Create a Azure B2C Tenant, Create a WEb app and register to AD B2C
      https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
 
-     Create a ASP.net Core web app with AD B2C and Docker configurations.
+------------------------------------------------------------------------------
+# 3.1 Create a ASP.net Core web app with AD B2C and Docker configurations.
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer04.png)
 
@@ -48,11 +49,17 @@
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer05.png)
 
-	 
-     Then create Userflow (Signin,SignUp and Profile Edit) 
+	
+-----------------------------------------------------------------------------
+# 3.2 Create Userflow (Signin,SignUp and Profile Edit) 
 
-	 Authentication flows and application scenario:
+https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows
+ 
+ 
+------------------------------------------------------------------------------
+# 4. Test The Web Application and view the results
 
+    Authentication flows and application scenario:
      Scenario                 : Web app that sign in users
      Linux                    : ASP.net Core
      OAuth 2.0 flow and grant : Authorization code
@@ -68,12 +75,7 @@
       - 3.If user passed authentication the system will redirect traffic to the application.
       - 3.If user fail authentication the system will redirect traffic to denied ui page.
 
-	   
- 
-------------------------------------------------------------------------------
-# 4. Test The Web Application and view the results
 
- 
  
 # View ADB2C UI, UserFlow (SingIn , Edit Profile)
 
