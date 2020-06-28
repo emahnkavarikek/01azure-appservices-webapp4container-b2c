@@ -1,5 +1,5 @@
 ----------------------------------------------------------
-# Azure Web App For Containers configured with Azure AD B2C and Custom Domain
+# Azure Web App For Containers configured with Azure AD B2C, Azure Front Door, Azure DNS Zone (Custom Domain with DigiCert Certificate)
 
 
 # High Level Architecture Diagram:
