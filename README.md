@@ -57,16 +57,19 @@ https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user
 ------------------------------------------------------------------------------
 # 3.4 Tag Image and push to Docker Hub repository
 
+
 docker login
 
-User Name : <your Docker Hub User Name>
+User Name : Your Docker Hub User Name
 	
-Password  : <your Docker Hub Password>
+Password  : Your Docker Hub Password
+	
 	
 
 docker ps
 
 docker images  
+
 
 
 docker tag phproject01 gbbuenaflor/webapp4container01-app:v1
@@ -95,7 +98,7 @@ docker push gbbuenaflor/webapp4container01-app:v1
 
 
  
-# View Docker Image (from Docker Hub) running inside the Appservice
+# View Docker Image (from Docker Hub) running inside the App Service
 
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer09.png)
