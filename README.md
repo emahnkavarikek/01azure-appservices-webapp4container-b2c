@@ -20,8 +20,7 @@
  - Azure Storage Account 
  
 ------------------------------------------------------------------------------
-# 2. Configure Azure DNS Zone, edit Name Server of GoDaddy to utilize the Azure Name servers.
-     Add CAA for DigiCert (use to Azure FrontDoor Custom Domain Certificate Management)
+# 2. Configure Azure DNS Zone, edit Name Server of GoDaddy to utilize the Azure Name servers. Add "CAA" for DigiCert (use for Azure FrontDoor Custom Domain Certificate Management)
 	 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer02.png)
 
