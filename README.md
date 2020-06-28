@@ -11,14 +11,13 @@
 # Configuration Flow :
 
 ------------------------------------------------------------------------------
-# 1. Create new the infrastructure using Azure Terraform
+# 1. Create new infrastructure using Azure Terraform
 
  - AppService - Linux
  - Azure DNS Zone
  - Azure Front Door (With WAF and Policy)
  - Azure CDN
- - Azure Storage Account
- 
+ - Azure Storage Account 
  
 ------------------------------------------------------------------------------
 # 2. Configure Azure DNS Zone, edit Name Server of GoDaddy to utilize the Azure Name servers.
