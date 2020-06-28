@@ -39,23 +39,22 @@
 # 3. Create a Azure B2C Tenant
      https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
 
+-----------------------------------------------------------------------------
+# 3.1 Create Userflow (Signin,SignUp and Profile Edit) 
+
+https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows
+ 
 ------------------------------------------------------------------------------
-# 3.1 Create new  ASP.net Core web app with AD B2C and Docker configurations.
+# 3.2 Create new  ASP.net Core web app with AD B2C and Docker configurations.
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer04.png)
 		
 ------------------------------------------------------------------------------
-# 3.2 Create MVC Controller with Views, Using Entity Framework
+# 3.3 Create MVC Controller with Views, Using Entity Framework
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer05.png)
 
-	
------------------------------------------------------------------------------
-# 3.3 Create Userflow (Signin,SignUp and Profile Edit) 
-
-https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows
- 
- 
+	  
 ------------------------------------------------------------------------------
 # 4. Test The Web Application and view the results
 
@@ -81,6 +80,7 @@ https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user
 
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer07.png)
+
 
 
 # View the ASP.Net Core Web application running under Azure FrontDoor with valid DigiCert certificate.
