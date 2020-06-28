@@ -36,22 +36,22 @@
 
 
 ------------------------------------------------------------------------------
-# 3. Create a Azure B2C Tenant, Create a WEb app and register to AD B2C
+# 3. Create a Azure B2C Tenant
      https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
 
 ------------------------------------------------------------------------------
-# 3.1 Create a ASP.net Core web app with AD B2C and Docker configurations.
+# 3.1 Create new  ASP.net Core web app with AD B2C and Docker configurations.
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer04.png)
-
-	 
-     Create New ASP.NET Core Web Application Project.
+		
+------------------------------------------------------------------------------
+# 3.2 Create MVC Controller with Views, Using Entity Framework
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer05.png)
 
 	
 -----------------------------------------------------------------------------
-# 3.2 Create Userflow (Signin,SignUp and Profile Edit) 
+# 3.3 Create Userflow (Signin,SignUp and Profile Edit) 
 
 https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows
  
