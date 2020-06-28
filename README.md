@@ -49,7 +49,7 @@ https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer04.png)
 		
 ------------------------------------------------------------------------------
-# 3.3 Create MVC Controller with Views, Using Entity Framework, then push the image to Docker Hub
+# 3.3 Create MVC Controller with Views, Using Entity Framework. Make sure application can run in IIS Express and Docker.
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer05.png)
 
