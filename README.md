@@ -90,14 +90,14 @@ https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user
 
 
 
-# View AD B2C, once sign up, user profile is added in the Azure B2C
+# Once sign-up, user profile is added in the Azure B2C
 
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer10.png)
 
 
 
-# View the ASP.Net Core Web application running under Azure FrontDoor with valid DigiCert certificate.
+# View the ASP.Net Core Web application running under Azure FrontDoor configured with a Custom Domain with valid DigiCert certificate.
 
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer08.png)
