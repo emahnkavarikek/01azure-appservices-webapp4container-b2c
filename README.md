@@ -5,7 +5,7 @@
 # High Level Architecture Diagram:
 
 
-![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer01.png)
+![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer01.png)
 
 
 # Configuration Flow :
@@ -22,7 +22,7 @@
 ------------------------------------------------------------------------------
 # 2. Configure Azure DNS Zone, edit Name Server of GoDaddy to utilize the Azure Name servers. Add "CAA" for DigiCert (use for Azure FrontDoor Custom Domain Certificate Management)
 	 
-![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer02.png)
+![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer02.png)
 
 
 ------------------------------------------------------------------------------
@@ -30,7 +30,7 @@
 
     Verify and ensure the FrontDoor certificate Management Type is set to "FrontDoor Manage"
 
-![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer03.png)
+![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer03.png)
 
 
 ------------------------------------------------------------------------------
@@ -45,12 +45,12 @@ https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user
 ------------------------------------------------------------------------------
 # 3.2 Create new  ASP.net Core web app with AD B2C and Docker configurations.
 
-![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer04.png)
+![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer04.png)
 		
 ------------------------------------------------------------------------------
 # 3.3 Create MVC Controller with Views, Using Entity Framework. Make sure application can run in IIS Express and Docker.
 
-![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer05.png)
+![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer05.png)
 
 
 ------------------------------------------------------------------------------
@@ -87,7 +87,7 @@ docker push gbbuenaflor/webapp4container01-app:v1
 
      Note: App Service Plan - Linux is describe in this post
 	 
-![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer06.png)
+![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer06.png)
 
 
    -	User will Login or Register new account to the system
@@ -97,31 +97,31 @@ docker push gbbuenaflor/webapp4container01-app:v1
 
 
  
-# View Docker Image (from Docker Hub) running inside the App Service
+# -  View Docker Image (from Docker Hub) running inside the App Service
 
 
-![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer09.png)
+![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer09.png)
 
 
  
-# View ADB2C UI, UserFlow (SingIn , Edit Profile)
+# -  View ADB2C UI, UserFlow (SingIn , Edit Profile)
 
 
-![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer07.png)
-
-
-
-# Once sign-up, user profile is added in the Azure B2C
-
-
-![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer10.png)
+![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer07.png)
 
 
 
-# View the ASP.Net Core Web application running under Azure FrontDoor configured with a Custom Domain and valid DigiCert certificate.
+# -  Once sign-up, user profile is added in the Azure B2C
 
 
-![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/GB-WebAppForContainer08.png)
+![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer10.png)
+
+
+
+# -  View the ASP.Net Core Web application running under Azure FrontDoor configured with a Custom Domain and valid DigiCert certificate.
+
+
+![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer08.png)
 
  
 
