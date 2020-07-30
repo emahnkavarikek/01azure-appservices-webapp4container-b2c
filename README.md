@@ -13,12 +13,18 @@
 ------------------------------------------------------------------------------
 # 1. Create new infrastructure using Azure Terraform
 
+```
+terraform init
+terrafom plan
+terrafrom apply
+
+The following Azure Service will be created:
  - AppService - Linux
  - Azure DNS Zone
  - Azure Front Door (With WAF and Policy)
  - Azure CDN
  - Azure Storage Account 
- 
+``` 
 ------------------------------------------------------------------------------
 # 2. Configure Azure DNS Zone, edit Name Server of GoDaddy to utilize the Azure Name servers. Add "CAA" for DigiCert (use for Azure FrontDoor Custom Domain Certificate Management)
 	 
