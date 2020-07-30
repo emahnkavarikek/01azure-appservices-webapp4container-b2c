@@ -73,6 +73,7 @@ docker push gbbuenaflor/webapp4container01-app:v1
 ------------------------------------------------------------------------------
 # 4. Test The Web Application and view the results
 
+```
     Authentication flows and application scenario:
      Scenario                 : Web app that sign in users
      Linux                    : ASP.net Core
@@ -80,39 +81,41 @@ docker push gbbuenaflor/webapp4container01-app:v1
      Audience                 : Work or school accounts, personal accounts, and Azure AD B2C
 
      Note: App Service Plan - Linux is describe in this post
-	 
+```
+
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer06.png)
 
 
+```
    -	User will Login or Register new account to the system
    -	Once validated by ADB2C
       -	If user passed authentication the system will redirect traffic to the application.
       -	If user fail authentication the system will redirect traffic to denied ui page.
-
+```
 
  
-# -  View Docker Image (from Docker Hub) running inside the App Service
+## -  View Docker Image (from Docker Hub) running inside the App Service
 
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer09.png)
 
 
  
-# -  View ADB2C UI, UserFlow (SingIn , Edit Profile)
+## -  View ADB2C UI, UserFlow (SingIn , Edit Profile)
 
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer07.png)
 
 
 
-# -  Once sign-up, user profile is added in the Azure B2C
+## -  Once sign-up, user profile is added in the Azure B2C
 
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer10.png)
 
 
 
-# -  View the ASP.Net Core Web application running under Azure FrontDoor configured with a Custom Domain and valid DigiCert certificate.
+## -  View the ASP.Net Core Web application running under Azure FrontDoor configured with a Custom Domain and valid DigiCert certificate.
 
 
 ![Image description](https://github.com/GBuenaflor/01azure-appservices-webapp4container-b2c/blob/master/Images/GB-WebAppForContainer08.png)
