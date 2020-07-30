@@ -35,7 +35,8 @@
 
 ------------------------------------------------------------------------------
 # 3. Create a Azure B2C Tenant
-     https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
+
+https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
 
 -----------------------------------------------------------------------------
 # 3.1 Create Userflow (Signin,SignUp and Profile Edit) 
@@ -56,25 +57,18 @@ https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user
 ------------------------------------------------------------------------------
 # 3.4 Tag Image and push to Docker Hub repository
 
-
+```
 docker login
-
-User Name : Your Docker Hub User Name
-	
+User Name : Your Docker Hub User Name	
 Password  : Your Docker Hub Password
-	
 	
 
 docker ps
-
 docker images  
 
-
-
 docker tag phproject01 gbbuenaflor/webapp4container01-app:v1
-
 docker push gbbuenaflor/webapp4container01-app:v1
-
+```
   
 ------------------------------------------------------------------------------
 # 4. Test The Web Application and view the results
