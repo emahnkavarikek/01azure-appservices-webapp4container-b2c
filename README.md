@@ -128,11 +128,8 @@ docker push gbbuenaflor/webapp4container01-app:v1
 
  
 
+------------------------------------------------------------------------------
 
- 
-Link to other Microsoft Azure projects
-https://github.com/GBuenaflor/01azure
- 
-
+Microsoft Azure Container Ecosystem - "nugget series"  > [Click this Link](https://github.com/GBuenaflor/gbuenaflor.github.io)  
 
 Note: My Favorite -> Microsoft :D
